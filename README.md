@@ -26,6 +26,7 @@ The back-end uses a REST API to analyse a client's loan request and respond with
 3. Run the command ```gradle build```.
 4. Run the command ```java -jar build/libs/decision-engine-1.0.jar```. 
    * The server should now be running, as indicated by the console.
+   * Alternatevly, you can open the project in the IDE of your choice and execute ```DecisionEngineApplication.java```.
 
 
 5. Clone the ["inbank-decision-engine-frontend"](https://github.com/pauljurgens11/inbank-decision-engine-frontend) repository to your device.
