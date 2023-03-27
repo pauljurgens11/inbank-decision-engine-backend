@@ -31,9 +31,8 @@ The back-end uses a REST API to analyse a client's loan request and respond with
 
 5. Clone the ["inbank-decision-engine-frontend"](https://github.com/pauljurgens11/inbank-decision-engine-frontend) repository to your device.
 6. Navigate to the root folder
-7. Run the command ```flutter pub get``` to download all dependencies.
-8. Run the command ```flutter run --release```.
-9. Enjoy!
+7. Run the command ```flutter run --release```.
+8. Enjoy!
 
 
 ## Documentation
