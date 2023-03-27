@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class DecisionEngineResponse {
     private boolean response;
-    private Integer loanAmount;
-    private Integer loanPeriod;
+    private String loanAmount;
+    private String loanPeriod;
     private String message;
 }
 

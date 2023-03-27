@@ -167,14 +167,14 @@ public class DecisionEngineControllerTests {
                 .andExpect(jsonPath("$.response").value(true))
                 .andExpect(jsonPath("$.loanAmount").value(5000))
                 .andExpect(jsonPath("$.loanPeriod").value(50))
-                .andExpect(jsonPath("$.message").value("Success!"))
+                .andExpect(jsonPath("$.message").value("Success! We can offer you this loan:"))
                 .andReturn();
 
         //then
         DecisionEngineResponse response = objectMapper
                 .readValue(result.getResponse().getContentAsString(), DecisionEngineResponse.class);
-        assertEquals(5000, response.getLoanAmount());
-        assertEquals(50, response.getLoanPeriod());
-        assertEquals("Success!", response.getMessage());
+        assertEquals("5000", response.getLoanAmount());
+        assertEquals("50", response.getLoanPeriod());
+        assertEquals("Success! We can offer you this loan:", response.getMessage());
     }
 }

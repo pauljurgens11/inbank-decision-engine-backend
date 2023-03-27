@@ -3,6 +3,9 @@ package ee.taltech.decisionengine;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Activate the API endpoint.
+ */
 @SpringBootApplication
 public class DecisionEngineApplication {
 
